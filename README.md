@@ -41,6 +41,8 @@ These scripts will check for Docker and Docker Compose, install them if necessar
 
 Once the setup is complete, the Vue.js documentation site will be accessible at https://localhost:4000. The site is intended to be secured using SSL with self-signed certificates generated during the setup. However, due to a configuration oversight, SSL might not be enabled. If you encounter any issues with accessing the site securely, you may need to verify the SSL configuration or generate new self-signed certificates.
 
+![](/safari-ssl.png)
+
 ## Project Structure
 
 **nginx.conf:** The Nginx configuration file, which includes SSL settings and reverse proxy configuration to forward requests to the Vue.js application running inside the Docker container.
