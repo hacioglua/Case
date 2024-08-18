@@ -2,6 +2,8 @@
 
 This project is a Dockerized version of the Vue.js documentation site, cloned from the [official repository](https://github.com/vuejs/v2.vuejs.org). The platform configuration includes Nginx with SSL for secure access.
 
+![](/case-diagram.png)
+
 ## Prerequisites
 
 Before you start, ensure that the following tools are installed on your machine:
