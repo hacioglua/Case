@@ -21,7 +21,14 @@ Before you start, ensure that the following tools are installed on your machine:
    git clone https://github.com/hacioglua/Case
    cd Case
    ```
- 2. **Run the Setup Script**
+2. **Run the Setup Script**
+
+    **Grant Execute Permissions:** Before running the setup scripts, make sure to grant execute permissions. You can do this with the following commands:
+
+    ```bash
+    chmod +x setup-linux.sh # for linux operating system such as Ubuntu 22.04 LTS
+    chmod +x setup.sh # for MacOS operating system
+    ```
 
 Execute the following command to install Docker, Docker Compose, and start the Docker service according to your operating system:
 
@@ -55,4 +62,8 @@ Once the setup is complete, the Vue.js documentation site will be accessible at 
 * If Docker is not installed, the setup script will attempt to install it. Ensure you have the necessary permissions or run the script with sudo if required.
 * If the Vue.js site does not load, check the Docker container logs with docker-compose logs for any errors.
 
+## Note 
+I had some trouble running `try-setup-linux.sh` on AWS EC2, so I decided to skip it for now. However, the `setup-linux.sh` script works perfectly, creating images and containers as expected. I’m still including `try-setup-linux.sh` in case it's useful.
+
+---
 ### THANK YOU
