@@ -4,13 +4,6 @@ This project is a Dockerized version of the Vue.js documentation site, cloned fr
 
 ![](/case-diagram.png)
 
-## Prerequisites
-
-Before you start, ensure that the following tools are installed on your machine:
-
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
-
 ## Setup
 
 1. **Clone the Repository**
